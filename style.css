@@ -1,0 +1,94 @@
+*{
+    color: rgb(203, 203, 231);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* body{
+    background-color: black;
+} */
+.navbar{
+    background-color: rgb(25, 25, 60);
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    padding-left: 5px;
+}
+li{
+    list-style: none;
+   margin-left: 80px;
+}
+.links{
+    display: flex; 
+}
+.input-btn1{
+    font-size: 1rem;
+    margin-left: 80px;
+    border-radius: 20px;
+    border: none;
+}
+.icon{
+    display: flex;
+}
+.icon{
+    position: relative;
+    right: 25px;
+    padding-top: 2px;
+}
+li:hover{
+    color: blueviolet;
+}
+.logo:hover{
+    color: rgb(241, 168, 9);
+}
+.nav-back-logo{
+    height: 900px;
+    background-color: black;
+}
+
+/* mid pont */
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.butt-on{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 300px;
+    right: 200px;
+    gap: 10px;
+    transition: all 0.9s ease-in;
+}
+.Login{
+    color: rgb(184, 211, 219);
+    background-color: rgb(24, 45, 96);
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: none;
+}
+.Singin{
+    color: rgb(184, 211, 219);
+    background-color: rgb(24, 45, 96);
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: none;
+}
+.Login:hover{
+    transform: scale(1.1);
+}
+.Singin:hover{
+    transform: scale(1.1);
+}
+a{
+    text-decoration: none;
+}
+.midbox{
+    height: 2200px;
+}
+footer{
+    height: 90px;
+    background-color: black;
+}
